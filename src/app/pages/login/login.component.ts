@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DefaultLoginLayoutComponent } from "../../components/default-login-layout/default-login-layout.component";
+import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 
 
 @Component({
@@ -7,8 +8,15 @@ import { DefaultLoginLayoutComponent } from "../../components/default-login-layo
     standalone: true,
     templateUrl: './login.component.html',
     styleUrl: './login.component.css',
-    imports: [DefaultLoginLayoutComponent]
+    imports: [DefaultLoginLayoutComponent,FormsModule,ReactiveFormsModule]
 })
 export class LoginComponent {
+  loginForm!:FormGroup;
 
-}
+  constructor(){
+    this.loginForm = new FormGroup({
+      email: new FormControl ('',[Validators.required, Validators.email]),
+      password: new FormControl ('',[Validators.required, Validators.minLength(6)])
+    })
+  }
+  }
