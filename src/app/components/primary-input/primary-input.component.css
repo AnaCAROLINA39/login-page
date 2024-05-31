@@ -1,0 +1,34 @@
+input{
+  border-radius: 8px 0 0 8px;
+  background-color: #F1F3F6;
+  border:none;
+  color: brown;
+  padding: 12px 12px 12px 20px;
+  width: 100%;
+  gap:8px;
+}
+.input-wrapper{
+  color:#525558;
+  font-size: 16px;
+  text-align: start;
+  width: 90%;
+  margin:0 0 0 20px;
+  label{
+    margin-bottom: 10px;
+  }
+}
+.input-content{
+
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+  display:flex ;
+}
+.icon{
+padding: 12px;
+background-color: #90CAF9;
+border-radius: 0 8px 8px 0 ;
+color: white;
+}
+label{
+  margin-bottom: 20px;
+}
