@@ -3,9 +3,9 @@ input{
   background-color: #F1F3F6;
   border:none;
   color: brown;
-  padding: 12px 12px 12px 20px;
+  padding: 8px 8px 8px 20px;
   width: 100%;
-  gap:8px;
+  gap:5px;
 }
 .input-wrapper{
   color:#525558;
@@ -14,7 +14,7 @@ input{
   width: 90%;
   margin:0 0 0 20px;
   label{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 .input-content{
@@ -24,11 +24,11 @@ input{
   display:flex ;
 }
 .icon{
-padding: 12px;
+padding: 8px;
 background-color: #90CAF9;
 border-radius: 0 8px 8px 0 ;
 color: white;
 }
 label{
-  margin-bottom: 20px;
+  margin-bottom: 1px;
 }

@@ -2,7 +2,7 @@ form{
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap :24px;
+  gap :20px;
 }
 span{
 font-size: 14px;
